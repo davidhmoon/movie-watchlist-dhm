@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/641a95a977.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="titleFindYourFilm">Find your film </h1>
+            <a href="watchlist.html" id="navigate">My Watchlist</a>
+        </header>
+        <main>
+            <div class="input-container">
+                <img src="Icon.png" class="magnifying-glass">
+                <input type='text' placeholder="Search for a movie" id='input-text'>
+                <button id="search">Search</button> 
+            </div>
+            <div class="movie-container" id="movie-container">
+                <div class="exploring" id="default-movie">
+                    <img src="Icon-2.png" class="movie-reel" id="reel-icon">
+                    <p id="start-exploring">Start exploring</p>                    
+                </div>
+                <div id = "putDataHere"></div>                      
+            </div>
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
